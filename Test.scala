@@ -15,8 +15,6 @@ class Test {
 			println(true)
 		} else {
 			println("TEST FAILED")
-			println("Expected: " + (new TaskList(l2)).prettyPrint())
-			println("Actual: " + (new TaskList(l1)).prettyPrint())
 		}
 	}
 
