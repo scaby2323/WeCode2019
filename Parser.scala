@@ -7,6 +7,7 @@ class Parser {
             case in if in.startsWith("completed") => ("completed", "")
             case in if in.startsWith("show") => ("show", "")
             case in if in.startsWith("quit") => ("quit", "")
+			case in if in.startsWith("test") => ("test", "")
             case _ => ("error", "")
 		}
 	}
