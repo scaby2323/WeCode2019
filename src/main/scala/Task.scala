@@ -1,6 +1,6 @@
 class Task() {
 
-	def setStatus() : Unit = {
+	def setStatus(input: Any) : Unit = {
 		println("Not implemented")
 	}
 
@@ -8,7 +8,7 @@ class Task() {
 		println("Not implemented")
 	}	
 
-	def updateStatus() : Unit = {
+	def updateStatus(input: Any) : Unit = {
 		println("Not implemented")
 	}
 

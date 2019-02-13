@@ -1,14 +1,14 @@
 class TaskList() {
 
-	def addTask() : Unit = {
+	def addTask(input: Any) : Unit = {
 		println("not implemented")
 	}
 
-	def removeTask() : Unit = {
+	def removeTask(input: Any) : Unit = {
 		println("Not implemented")
 	}	
 
-	def updateTask() : Unit = {
+	def updateTask(input: Any) : Unit = {
 		println("Not implemented")
 	}
 

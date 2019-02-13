@@ -29,8 +29,8 @@ object Main extends App{
             case "add"       => taskList.addTask(value)
             case "remove"    => taskList.removeTask(value.toInt)
             case "update"    => taskList.updateTask(value.toInt)
-            case "completed" => taskList.getCompleted().prettyPrint()
-            case "show"      => taskList.prettyPrint()
+            case "completed" => taskList.getCompleted() //.printList()
+            case "show"      => taskList.printList()
             case "test"      => tester.run()
             case "quit"      => quit = true
             case _           => println("Not a valid response")
